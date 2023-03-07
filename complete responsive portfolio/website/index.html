@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	 <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<!----header design---->
+	<header>
+		<a href="#" class="logo">Port<span>foli</span>o.</a>
+
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+
+		<div class="bx bx-menu" id="menu-icon">
+			
+		</div>
+	</header>
+
+	<!----home section design--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I'm</span>
+			</div>
+			<h1>Sharon</h1>
+			<h3>Aspiring<span> Web Developer.</span></h3>
+			<p>Aspiring Web Developer using this website to <br> showcase her skills.</p>
+			<div class="button">
+				<a href="#" class="btn">Say Hello</a>
+				<a href="#" class="btn2"><span><i class='bx bx-play'></i></span>See My Work</a>
+			</div>
+		</div>
+	</section>
+
+	<!----about section design--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/Aspring Web Dev.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>Aspiring Web Developer</h4>
+			<p>My love for technology began in 2012, however, I knew I wanted to pursure a career in Information Techology in 2014 after watching the movie Big Hero 6. I was fascinated by the students who applied at the Tech Academy and some the amazing things they could do using technology. However, the one applicant that stood out for me was this young boy who was inspired by his brother to apply at the Academy. I was drawn by how this boy could make use of microbats, swarms of tiny robots that could connect in any configuration using a neurocranial transmitter. I then took it upon myself to apply at WeThinkCode_ and I made it through and I am now a Software Developer.</p>
+			<a href="#" class="btn">Click Here For More</a>
+		</div>
+	</section>
+
+	<!----service section design--->
+	<section class="services" id="services">
+		<div class="main-text">
+			<h2><span>My</span> Expertise</h2>
+		</div>
+
+		<div class="services-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-mobile-alt' ></i>
+				</div>
+				<h3>Software Development</h3>
+				<p>Writing unit tests, git and branching; <br>
+				   Implementing OAuth using the Google OAuth API; <br>
+				   writing code that integrates with an external HTTP REST API, including JSON.
+				</p>
+				<a href="#" class="read">Read More</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-code-alt' ></i>
+				</div>
+				<h3>Mobile Development</h3>
+				<p>Develop a mobile application against an existing back-end system.
+				   <br>UI/UX Design of mobile applications.	
+				</p>
+				
+				<a href="#" class="read">Read More</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-edit-alt' ></i>
+				</div>
+				<h3>Web Development</h3>
+				<p>Building web applications that use multiple API’s.
+				   <br>Design and deploy a distributed system on a cloud platform.</p>
+				<a href="#" class="read">Read More</a>
+			</div>
+
+		</div>
+	</section>
+
+	<!----portfolio section design--->
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<p>Portfolio</p>
+			<h2><span>Latest</span> Project</h2>
+			<br>
+			<p>Below is a screenshot of one of the pages on the website I designed. This website was inspired by my love for both fashion and code.</p>
+		</div>
+
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="img/portfolio screenshot.jpg">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Showcasing my love for fashion and code through the website.</p>
+					<a href="#"><i class='bx bx-link-external' ></i></a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!----contact section design--->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me</span></h2>
+			<h4>Should You Have A Project You'd Like Me To Help You With,</h4>
+			<p>Do not hesitate to contact me so we can talk.</p>
+			<div class="list">
+				<li><a href="#">mogokonyanes@gmail.com</a></li>
+			</div>
+
+			<div class="contact-icons">
+				<a href="#"><i class='bx bxl-facebook' ></i></a>
+				<a href="#"><i class='bx bxl-twitter' ></i></a>
+				<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<form action="">
+				<input type="name" placeholder="Your Name" required>
+				<input type="email" placeholder="Your Email Address" required>
+				<textarea name="" id="" cols="35" rows="10" placeholder="Please Type Your Messsage" required></textarea>
+				<input type="submit" value="Send Message" class="submit" required>
+			</form>
+		</div>
+	</section>
+
+	<!----end section design--->
+	<section class="end">
+		<div class="last-text">
+			<p>Copyright © 2022 by Sharon Mogokonyane All Rights Reserved.</p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+		</div>
+	</section>
+
+	<!---custom js link--->
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
